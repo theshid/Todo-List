@@ -10,7 +10,7 @@
      
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         
         <link rel="stylesheet" type="text/css" href="assets/css/todo.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
@@ -18,12 +18,12 @@
     </head>
     <body>
        <div id="container">
-       	<h1>Todo List</h1>
-       	<input type="text" >
+       	<h1>Todo List <span id="plus"><i class="fa fa-plus"></i></span></h1>
+       	<input type="text" placeholder="Add new Todo">
        	<ul>
-       		<li><span>X</span> Buy dog</li>
-       		<li><span>X</span> yoooo</li>
-       		<li><span>X</span> go to Anfield</li>
+       		<li><span><i class="fa fa-trash"></i></span> Buy dog</li>
+       		<li><span><i class="fa fa-trash"></i></span> yoooo</li>
+       		<li><span><i class="fa fa-trash"></i></span> go to Anfield</li>
        	</ul>
        </div>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
